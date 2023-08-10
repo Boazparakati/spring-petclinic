@@ -14,7 +14,7 @@ pipeline {
         stage ('vsc') {
             steps {
                 git url : 'https://github.com/Boazparakati/spring-petclinic.git',
-                branch : 'main'
+                branch : 'develop'
             }
         }
         stage ('build and package') {
